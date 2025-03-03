@@ -1,21 +1,55 @@
+/* GENERICHE */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+a {
+    color: #3cb4e7;
+    text-decoration: none;
+}
+
+/* UTILS - quelle che utilizzo più spesso */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.text-grey {
+    color: #808080;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+
+/* HEADER PRINCIPALE */
 .main-header {
     height: 100px;
     background-color: #3cb4e7;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    background-size: 23%;
+    background-size: 26%;
     line-height: 100px; /*insieme a vertical-align sull'img, 
     allinea al centro, così se modifico l'altezza della header 
     la centralizzazione avviene in automatico*/
+    margin-bottom: 15px;
 }
 
 #logo-booleaner {
     height: 50%;
     vertical-align: middle; /* vedi line-height */
 }
+
+/* ARTICOLO */
+h1 {
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+address {
+    font-style: normal;
+    font-size: 18px;
+}
+
