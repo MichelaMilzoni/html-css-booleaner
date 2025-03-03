@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
 a {
     color: #3cb4e7;
     text-decoration: none;
@@ -23,7 +27,6 @@ a {
     font-size: 12px;
 }
 
-
 /* HEADER PRINCIPALE */
 .main-header {
     height: 100px;
@@ -34,7 +37,6 @@ a {
     line-height: 100px; /*insieme a vertical-align sull'img, 
     allinea al centro, così se modifico l'altezza della header 
     la centralizzazione avviene in automatico*/
-    margin-bottom: 15px;
 }
 
 #logo-booleaner {
@@ -45,7 +47,6 @@ a {
 /* ARTICOLO */
 h1 {
     font-size: 38px;
-    margin-bottom: 0;
 }
 
 address {

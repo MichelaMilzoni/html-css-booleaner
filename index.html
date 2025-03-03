@@ -9,21 +9,36 @@
 
 <body>
     <!-- Intestazione principale pagina -->
-    <header class="main-header">
-        <img id="logo-booleaner" src="./img/logo.svg" alt="The Booleaner">
+    <header class="main-header margin-bottom">
+        <img class="logo-booleaner" src="./img/logo.svg" alt="The Booleaner">
     </header>
 
     <main>
         <div class="container">
             <article>
             <!--header articolo-->  
-                <header class="article-header" >
+                <header class="article-header margin-bottom">
                     <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
                     <address class="text-grey">Scritto da <a href="#">The Boleaner</a></address> <!--informazioni sull'autore-->
                     <time class="text-grey text-small" datetime="2020-10-10">il 10/10/2020</time> <!--descrive un tempo-->   
                 </header>
 
-                
+                <!--Article Pics-->
+                <figure class= "article-pictures margin-bottom">
+                    <img src="./img/tim-1.jpg" alt="Tim1">
+                    <img src="./img/tim-2.jpg" alt="Tim2">
+                    <!--l'elemento figure accetta solo 2 figli: figure e figcaption (didascalia img,
+                    ce ne può essere solo uno anche se le img sono di più)-->
+                    <figcaption class="text-small">1st Photo: John S. and James L. Knight Foundation by Scott Henriksen <br>
+                                2nd Photo: Tim Berners Lee, by Paul Clark</figcaption>
+                </figure>
+
+                <!--Sezione articolo-->
+                <section class="article-content">
+                    <p>Lorem ipsum dolor, <mark>sit amet consectetur adipisicing elit</mark>. Tenetur harum cum accusantium nemo odio nam aliquam placeat iste. Ab animi atque mollitia iure ullam iste blanditiis laborum eveniet quisquam tenetur.
+                    Expedita quis rem eos magni accusantium alias harum consequatur quasi obcaecati dignissimos dolore fugit sint ex, quae, perspiciatis, hic debitis sunt ut nesciunt doloremque exercitationem eum ratione numquam nisi? Natus.</p>
+                </section>    
+            
         </div>
 </body>
 </html>
