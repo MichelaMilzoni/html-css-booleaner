@@ -5,7 +5,7 @@
 }
 
 .margin-bottom {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -16,6 +16,10 @@ a {
 ul {
     padding-left: 0;
     list-style-position: inside;
+}
+
+.width-50 {
+    width: 50%;
 }
 
 /* UTILS - quelle che utilizzo più spesso */
@@ -61,4 +65,29 @@ address {
 
 .article-content {
     margin: 20px 0 20px 0;
+}
+
+/* TABELLA */
+table {
+    border-collapse: collapse; /*collassa i bordi,
+    toglie i bordi*/
+}
+
+th {
+    text-align: left;
+    background-color: rgb(10, 181, 248);
+    color: #fff
+
+}
+
+tr { /*specificando il colore del th (vedi sopra) la riga di
+    intestazione della tabella, ha un colore diffrente, se 
+    non avessi specificato, il suo colore sarebbe uguale a
+    quello sotto (acquamarine) */
+    background-color: rgb(165, 213, 252);
+}
+
+td.even { /*=pari, tutte le righe pari della tabella,
+    se scrivo solo .even colora di bianco la colonna*/
+    background-color: #fff;
 }
