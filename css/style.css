@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    height: 100px;
+    background-color: #3cb4e7;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 23%;
+    line-height: 100px; /*insieme a vertical-align sull'img, 
+    allinea al centro, così se modifico l'altezza della header 
+    la centralizzazione avviene in automatico*/
+}
+
+#logo-booleaner {
+    height: 50%;
+    vertical-align: middle; /* vedi line-height */
+}
